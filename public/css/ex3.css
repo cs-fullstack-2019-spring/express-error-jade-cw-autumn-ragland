@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    margin: 5%;
+}
+
+.header{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: yellow;
+    margin: 1%;
+    padding: 1%;
+}
+.sideBar{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: blue;
+    margin: 1%;
+}
+.welcome{
+    grid-column: 2/4;
+    grid-row: 2;
+    background-color: lightgreen;
+    margin: 1%;
+    padding: 1%;
+}
+
+.footer{
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: orange;
+    margin: 1%;
+    padding: 1%;
+}
